@@ -58,11 +58,11 @@ position_hex* give_value_position(position_hex *gefran_hex_result)
   
   if (gefran_hex_result->byte2 > BORDER_NULL){
     gefran_hex_result->Y_hex_result = gefran_hex_result->byte2 - BORDER_MAX;
-    printf ("%d\n", gefran_hex_result->Y_hex_result);
+    printf ("Position: %d\n", gefran_hex_result->Y_hex_result);
   }
   else{
     gefran_hex_result->Y_hex_result = gefran_hex_result->byte2;
-    printf ("%d\n", gefran_hex_result->Y_hex_result);
+    printf ("Position: %d\n", gefran_hex_result->Y_hex_result);
   }  
   return gefran_hex_result;
 }
